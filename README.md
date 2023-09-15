@@ -6,4 +6,4 @@ Ilgee Hong, Sen Na, Michael Mahoney, Mladen Kolar <br>
 <br>
 **AdaSketch-Newton** is an algorithm for solving equality constrained nonconvex optimization problems. The method uses **randomized iterative sketching** to compute a search direction and **exact augmented Lagrangian merit function** to evaluate a search direction and do line search. <br>
 <br>
-This repository provides a Julia implementation of AdaSketch-Newton methods and other baseline methods for the experiments in the paper "Constrained Optimization via Exact Augmented Lagrangian and Randomized Iterative Sketching".
+This repository provides a Julia implementation of AdaSketch-Newton methods and other baseline methods for the experiments in the paper. Specifically, the repository contains three folders for three problems in the paper (CUTEst, Constrained Logistic Regression, PDE-constrained Problem).

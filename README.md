@@ -10,7 +10,7 @@ This repository provides a Julia implementation of AdaSketch-Newton methods and 
 
 ## Setup
 
-All our code is implemented in [Julia](https://julialang.org/). For installation of the packages that are used in the code, using <br>
+All our code is implemented in [Julia](https://julialang.org/) (ver 1.6.7). For installation of the packages that are used in the code, using <br>
 ```julia
 pkg> add NLPModels
 pkg> add LinearOperators

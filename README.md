@@ -42,3 +42,5 @@ include("/location of cloned folder/problem/method/Main.jl")
 ```
 * problem $\in$ {ConstrainedLogisticRegression, CUTEst, PDE} 
 * method $\in$ {AdaSketchNewtonGV, AdaSketchNewtonRV, AL, GmresL1AdapSQP, GmresL1SQP}
+
+You might need to edit the current working directory in Main.jl script.

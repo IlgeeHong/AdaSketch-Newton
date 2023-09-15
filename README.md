@@ -38,6 +38,6 @@ pkg> add LIBSVMdata
 
 Run experiments for a problem by executing
 ```julia
-include("/*location of cloned folder*/*problem*/*method*/Main.jl")
+include("/location of cloned folder/problem/method/Main.jl")
 ```
-where *problem*$\in${ConstrainedLogisticRegression,CUTEst,PDE} and *method*$\in${AdaSketchNewtonGV,AdaSketchNewtonRV,AL,GmresL1AdapSQP,GmresL1SQP}.
+where $\text{problem}\in\{\text{ConstrainedLogisticRegression, CUTEst, PDE}\}$ and *method*$\in${AdaSketchNewtonGV,AdaSketchNewtonRV,AL,GmresL1AdapSQP,GmresL1SQP}.

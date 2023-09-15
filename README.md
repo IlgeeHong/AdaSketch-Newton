@@ -33,3 +33,10 @@ pkg> add IterativeSolvers
 pkg> add CUTEst
 pkg> add LIBSVMdata
 ```
+
+## Usage
+
+Run experiments for a problem by executing
+```julia
+include("/*location of cloned folder*/*problem*/*method*/Main.jl")
+```

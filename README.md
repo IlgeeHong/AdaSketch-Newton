@@ -13,4 +13,23 @@ This repository provides a Julia implementation of AdaSketch-Newton methods and 
 All our code is implemented in [Julia](https://julialang.org/). For installation of the packages that are used in the code, using <br>
 ```julia
 pkg> add NLPModels
+pkg> add LinearOperators
+pkg> add OptimizationProblems
+pkg> add MathProgBase
+pkg> add ForwardDiff
+pkg> add NLPModelsJuMP
+pkg> add LinearAlgebra
+pkg> add Distributed
+pkg> add Ipopt
+pkg> add DataFrames
+pkg> add PyPlot
+pkg> add MATLAB
+pkg> add Glob
+pkg> add DelimitedFiles
+pkg> add Random
+pkg> add Distributions
+pkg> add Statistics
+pkg> add IterativeSolvers
+pkg> add CUTEst
+pkg> add LIBSVMdata
 ```

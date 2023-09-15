@@ -36,11 +36,22 @@ pkg> add LIBSVMdata
 
 ## Usage
 
-Run experiments for a problem by executing
+Run an experiment by executing
 ```julia
-include("/location of cloned folder/problem/method/Main.jl")
+include("/file_location/problem_name/method_name/Main.jl")
 ```
 * problem $\in$ {ConstrainedLogisticRegression, CUTEst, PDE} 
 * method $\in$ {AdaSketchNewtonGV, AdaSketchNewtonRV, AL, GmresL1AdapSQP, GmresL1SQP}
 
 You might need to edit the current working directory in Main.jl script.
+
+## Citation
+```
+@InProceedings{hong2023constrained,
+  title = {Constrained Optimization via Exact Augmented Lagrangian and Randomized Iterative Sketching},
+  author = {Hong, Ilgee and Na, Sen and Mahoney, Michael W. and Kolar, Mladen},
+  booktitle = {Proceedings of the 40th International Conference on Machine Learning},
+  pages = {13174--13198},
+  year = {2023}
+}
+```
